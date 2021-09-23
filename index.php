@@ -19,7 +19,6 @@
     <title>Actividad 6</title>
 </head>
 <body>
-    <!--Tabla de contactos de estudio-->
     <div class="container">
         <h1 class="mt-4">Actividad 6: Un sistema de contacto</h1>
         <p>
@@ -32,6 +31,7 @@
         </p>
     </div>
     <div class="container">
+        <!--Tabla de contactos de estudio-->
         <h2>Tabla de contactos de estudio</h2>
         <table class="table table-primary table-striped table-bordered">
             <thead>
