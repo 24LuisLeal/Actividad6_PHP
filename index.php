@@ -21,8 +21,19 @@
 <body>
     <!--Tabla de contactos de estudio-->
     <div class="container">
+        <h1 class="mt-4">Actividad 6: Un sistema de contacto</h1>
+        <p>
+            Ya que sabes cómo desarrollar un pequeño sistema CMS, ¿qué te parece si practicas programando un sistema de contactos?
+            <br>
+            1. Crea una base de datos con campos para número de identificación, nombre de usuario, correo electrónico y número de teléfono.
+            <br>
+            2. Prepara un documento con PHP en el que enlistes de tres maneras diferentes a tus compañeros de trabajo, de grupo o de estudio.
+            Puedes capturar los datos desde phpMyAdmin o desde la consola.
+        </p>
+    </div>
+    <div class="container">
         <h2>Tabla de contactos de estudio</h2>
-        <table class="table table-primary table-striped">
+        <table class="table table-primary table-striped table-bordered">
             <thead>
                 <tr>
                     <th scope="col">ID</th>
@@ -57,7 +68,7 @@
     <!--Tabla de contactos de trabajo-->
     <div class="container">
         <h2>Tabla de contactos de grupo</h2>
-        <table class="table table-success table-striped">
+        <table class="table table-success table-striped table-bordered">
             <thead>
                 <tr>
                     <th scope="col">ID</th>
@@ -92,7 +103,7 @@
     <!--Tabla de contactos de grupo-->
     <div class="container">
         <h2>Tabla de contactos de trabajo</h2>
-        <table class="table table-warning table-striped">
+        <table class="table table-warning table-striped table-bordered">
             <thead>
                 <tr>
                     <th scope="col">ID</th>
